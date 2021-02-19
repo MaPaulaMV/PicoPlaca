@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PicoPlacaController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PicoPlacaController::class, 'index']);
+
+Route::match(['get', 'post'], 'predict', [PicoPlacaController::class, 'predictPicoPlaca'])->name('predict');
