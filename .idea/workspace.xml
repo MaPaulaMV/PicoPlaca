@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="Layouts page master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210219_0004" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210219_0006" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -186,6 +186,21 @@
       <updated>1613753720215</updated>
       <workItem from="1613753721257" duration="1683000" />
     </task>
+    <task id="LOCAL-00001" summary="PicoPlacaController and routes">
+      <created>1613768015880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613768015880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Layouts page master">
+      <created>1613768038214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613768038214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,10 +217,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PicoPlacaController and routes" />
+    <MESSAGE value="Layouts page master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layouts page master" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2538" y="152" key="RollbackChangesDialog" timestamp="1613761337057">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2538" y="152" key="RollbackChangesDialog/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613761337057" />
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613768043608">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613768043608" />
   </component>
 </project>

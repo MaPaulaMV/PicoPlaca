@@ -1,10 +1,19 @@
 @extends('layouts.master')
-@section('title','Pico&Placa')
+@section('title', 'Pico&Placa Predictor')
+@section('parentPageTitle', 'Code Exercise')
+@section('page-style')
+    <link rel="stylesheet" href="{{asset('assets/plugins/light-gallery/css/lightgallery.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/plugins/fullcalendar/fullcalendar.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/plugins/sweetalert/sweetalert.css')}}"/>
+@stop
 @section('content')
-<div class="row">
+<div class="row clearfix">
     <div class="card">
         <div class="body">
-            <p>INDEX</p>
+            <form id="form-predictor" method="POST">
+                @csrf
+
+            </form>
         </div>
     </div>
 </div>

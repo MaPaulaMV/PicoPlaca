@@ -15,6 +15,6 @@ use App\Http\Controllers\PicoPlacaController;
 |
 */
 
-Route::get('/', [PicoPlacaController::class, 'index']);
+Route::get('/', [PicoPlacaController::class, 'index'])->name('index');
 
 Route::match(['get', 'post'], 'predict', [PicoPlacaController::class, 'predictPicoPlaca'])->name('predict');
