@@ -17,7 +17,7 @@
                 <div class="row clearfix">
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="number" name="number" maxlength="8"
+                            <input type="text" class="form-control" id="number" name="number" maxlength="7"
                                    placeholder="N° Placa" onkeypress="return check(event)" required/>
                         </div>
                     </div>
