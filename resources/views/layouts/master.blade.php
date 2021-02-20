@@ -46,16 +46,16 @@
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
-            <div class="m-t-30"><img class="zmdi-hc-spin" src="../assets/images/logo.svg" width="48" height="48" alt="Aero"></div>
-            <p>Please wait...</p>
+            <div class="m-t-30"><img class="zmdi-hc-spin" src="{{'assets/images/logo.svg'}}" width="48" height="48" alt="Pico&Placa"></div>
+            <p>Por favor espere...</p>
         </div>
     </div>
     <!-- Overlay For Sidebars -->
     <div class="overlay"></div>
-    <section class="content">
+    <section class="content col-lg-8 col-md-8 col-sm-12">
         <div class="block-header">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <h2>@yield('title')</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{route('index')}}"><i class="zmdi zmdi-home"></i>Stack Builders</a></li>

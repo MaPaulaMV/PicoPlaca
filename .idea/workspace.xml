@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="Layouts page master">
+    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="Theme aero assets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/plugins/momentjs/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/momentjs/moment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210219_0006" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210220_0001" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -200,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613768038214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Theme aero">
+      <created>1613774934108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613774934108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Theme aero assets">
+      <created>1613776213317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613776213317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,16 +236,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PicoPlacaController and routes" />
     <MESSAGE value="Layouts page master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layouts page master" />
+    <MESSAGE value="Theme aero" />
+    <MESSAGE value="Theme aero assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theme aero assets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2538" y="152" key="RollbackChangesDialog" timestamp="1613761337057">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2538" y="152" key="RollbackChangesDialog/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613761337057" />
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613768043608">
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613776232140">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613768043608" />
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613776232140" />
+    <state x="2553" y="184" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613775152356">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2553" y="184" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613775152356" />
   </component>
 </project>
