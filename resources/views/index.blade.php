@@ -91,9 +91,11 @@
                                 icon: data.status,
                                 confirmButtonClass: 'btn-success',
                                 confirmButtonText: 'Aceptar'
-                            });
-                            $('input[name^="number"]').val("");
-                            $('input[name^="date-time"]').val("");
+                            }).then(function () {
+                                    $('input[name^="number"]').val("");
+                                    $('input[name^="date-time"]').val("");
+                                }
+                            );
 
                         }else if(data.status === 'warning'){
                             Swal.fire({
@@ -102,9 +104,11 @@
                                 icon: "warning",
                                 showCancelButton: false,
                                 confirmButtonText: 'Cerrar'
-                            });
-                            $('input[name^="number"]').val("");
-                            $('input[name^="date-time"]').val("");
+                            }).then(function () {
+                                    $('input[name^="number"]').val("");
+                                    $('input[name^="date-time"]').val("");
+                                }
+                            );
 
                         } else {
                             Swal.fire({

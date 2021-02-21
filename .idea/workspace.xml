@@ -19,20 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="Theme aero assets">
+    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="PicoPlaca class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/plugins/momentjs/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/momentjs/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PicoPlaca.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PicoPlaca.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -167,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210220_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210220_0004" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -187,6 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613753720215</updated>
       <workItem from="1613753721257" duration="1683000" />
+      <workItem from="1613878258607" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="PicoPlacaController and routes">
       <created>1613768015880</created>
@@ -216,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613776213317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="form predict view and ajax method">
+      <created>1613804039361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613804039361</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PicoPlaca class">
+      <created>1613807380778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613807380778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,23 +245,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PicoPlacaController and routes" />
     <MESSAGE value="Layouts page master" />
     <MESSAGE value="Theme aero" />
     <MESSAGE value="Theme aero assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Theme aero assets" />
+    <MESSAGE value="form predict view and ajax method" />
+    <MESSAGE value="PicoPlaca class" />
+    <option name="LAST_COMMIT_MESSAGE" value="PicoPlaca class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2538" y="152" key="RollbackChangesDialog" timestamp="1613761337057">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2538" y="152" key="RollbackChangesDialog/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613761337057" />
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613776232140">
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613807384969">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613776232140" />
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613807384969" />
     <state x="2553" y="184" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613775152356">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>

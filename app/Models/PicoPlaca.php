@@ -4,11 +4,16 @@ namespace App\Models;
 
 class PicoPlaca
 {
-    //Properties
     public $plateNumber;
     public $date;
 
-    //Construct
+    /**
+     * PicoPlaca constructor.
+     * @description constructor of the class PicoPlaca.
+     *
+     * @param $plateNumber
+     * @param $date
+     */
     public function __construct($plateNumber,$date)
     {
         $this->plateNumber = $plateNumber;
@@ -16,6 +21,9 @@ class PicoPlaca
     }
 
     /**
+     * setPlateNumber
+     * @description set value of the plateNumber attribute.
+     *
      * @param mixed $plateNumber
      */
     public function setPlateNumber($plateNumber): void
@@ -24,6 +32,9 @@ class PicoPlaca
     }
 
     /**
+     * getPlateNumber
+     * @description get the value of the plateNumber attribute.
+     *
      * @return mixed
      */
     public function getPlateNumber()
@@ -32,6 +43,9 @@ class PicoPlaca
     }
 
     /**
+     * setDate
+     * @description set value of the date attribute.
+     *
      * @param mixed $date
      */
     public function setDate($date): void
@@ -40,6 +54,9 @@ class PicoPlaca
     }
 
     /**
+     * getDate
+     * @description get the value of the date attribute.
+     *
      * @return mixed
      */
     public function getDate()
@@ -47,12 +64,23 @@ class PicoPlaca
         return $this->date;
     }
 
-    //Methods
+    /**
+     * get_LastPlateNumber
+     * @description get the las number of the PlateNumber attribute.
+     *
+     * @return false|string
+     */
     public function get_LastPlateNumber()
     {
         return substr($this->plateNumber,-1);
     }
 
+    /**
+     * get_Day
+     * @description get the Day of the date attribute.
+     *
+     * @return mixed|string
+     */
     public function get_Day()
     {
         $strDate = explode(" ",$this->date);
@@ -60,7 +88,11 @@ class PicoPlaca
     }
 
     /**
+     * get_Time
+     * @description get the time('H:i:s') of the date attribute.
+     *
      * @return string
+     * @throws \Exception
      */
     public function get_Time()
     {
