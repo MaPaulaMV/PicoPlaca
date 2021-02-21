@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="PicoPlaca class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e533df30-3609-4a80-a693-4db28e48159c" name="Default Changelist" comment="predict PicoPlaca and compare times methods">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PicoPlacaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PicoPlaca.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PicoPlaca.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613753720215</updated>
       <workItem from="1613753721257" duration="1683000" />
-      <workItem from="1613878258607" duration="4545000" />
+      <workItem from="1613878258607" duration="4610000" />
     </task>
     <task id="LOCAL-00001" summary="PicoPlacaController and routes">
       <created>1613768015880</created>
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613807380778</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="predict PicoPlaca and compare times methods">
+      <created>1613883314320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613883314320</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,17 +258,18 @@
     <MESSAGE value="Theme aero assets" />
     <MESSAGE value="form predict view and ajax method" />
     <MESSAGE value="PicoPlaca class" />
-    <option name="LAST_COMMIT_MESSAGE" value="PicoPlaca class" />
+    <MESSAGE value="predict PicoPlaca and compare times methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="predict PicoPlaca and compare times methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2538" y="152" key="RollbackChangesDialog" timestamp="1613761337057">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2538" y="152" key="RollbackChangesDialog/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613761337057" />
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613807384969">
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1613883318825">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613807384969" />
+    <state x="2312" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1600.900@1920.0.1600.900" timestamp="1613883318825" />
     <state x="2553" y="184" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613775152356">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>

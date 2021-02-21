@@ -10,7 +10,7 @@ class PicoPlacaController extends Controller
 {
     /**
      * Index
-     * @description show the view with the form to enter the data for the Pico&Placa prediction
+     * @description show the view with the form to enter the data for the Pico&Placa prediction.
      *
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
@@ -21,7 +21,7 @@ class PicoPlacaController extends Controller
 
     /**
      * predictPicoPlaca
-     * @description Based on the plate number, date and a time the method will return whether or not that car can be on the road
+     * @description Based on the plate number, date and a time the method will return whether or not that car can be on the road.
      *
      * @param Request $request
      * @return array
@@ -97,7 +97,7 @@ class PicoPlacaController extends Controller
 
     /**
      * CompareTimesPicoPlaca
-     * @description compare the specified time with the Pico&Placa time limits
+     * @description compare the specified time with the Pico&Placa time limits.
      *
      * @param $time
      * @return bool
